@@ -1,12 +1,16 @@
 #include <raylib.h>
 
+struct Vec2{
+    float x{};
+    float y{};
+};
+// add sprite component
 namespace Entity{
     class Player{
         private:
             Vec2 position();
             float health; 
     };
-    class 
 };
 
 int main() {
