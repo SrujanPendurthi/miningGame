@@ -5,13 +5,14 @@ struct Vec2{
     float y{};
 };
 // add sprite component
-namespace Entity{
-    class Player{
-        private:
-            Vec2 position();
-            float health; 
+class Player{
+    private:
+        Vec2 position{};
+        float health{}; 
     };
-};
+class World{};
+
+
 
 int main() {
     InitWindow(1000,700,"pokemon");
